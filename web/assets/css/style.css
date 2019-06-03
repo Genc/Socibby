@@ -1,0 +1,92 @@
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1; }
+
+.inputfile + label {
+  text-transform: uppercase; }
+
+.inputfile + label {
+  max-width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center; }
+
+.inputfile + label figure {
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 6px; }
+
+.inputfile + label figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; }
+
+  /* Step Kısmı */
+  /* Step Kısmı */
+  /* Step Kısmı */
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+
+  /* Checkbox alanı */
+  /* Checkbox alanı */
+  /* Checkbox alanı */
+  /* Checkbox alanı */
+
+label:before {
+  content: url("https://cdn1.iconfinder.com/data/icons/windows8_icons_iconpharm/26/unchecked_checkbox.png");
+  position: absolute;
+  z-index: 100;
+  margin-left: 90px;
+  display: none;
+}
+:checked+label:before {
+  content: url("https://cdn1.iconfinder.com/data/icons/windows8_icons_iconpharm/26/checked_checkbox.png");
+  display: inline;
+}
+input[type=checkbox] {
+  display: none;
+}
+/*pure cosmetics:*/
+
+.limited-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

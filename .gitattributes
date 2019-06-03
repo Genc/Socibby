@@ -1,0 +1,6 @@
+web/* linguist-vendored
+*.js linguist-language=Java
+*.java linguist-detectable=true
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.css linguist-detectable=false

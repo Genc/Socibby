@@ -15,7 +15,7 @@
         <servlet-api-version>4.0.1</servlet-api-version>
         <taglibs-api-version>1.1.2</taglibs-api-version>
         <jstl-api-version>1.2</jstl-api-version>
-        <hibernate-version>5.4.0.Final</hibernate-version>
+        <hibernate-version>5.4.24.Final</hibernate-version>
         <hibernate-validator-version>6.0.20.Final</hibernate-validator-version>
         <mysql-version>8.0.16</mysql-version>
         <log4j-api-version>1.2.17</log4j-api-version>

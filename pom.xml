@@ -10,7 +10,7 @@
 
     <properties>
         <spring-context-version>5.1.4.RELEASE</spring-context-version>
-        <spring-mvc-version>5.1.14.RELEASE</spring-mvc-version>
+        <spring-mvc-version>5.3.18</spring-mvc-version>
         <spring-orm-version>5.1.4.RELEASE</spring-orm-version>
         <servlet-api-version>4.0.1</servlet-api-version>
         <taglibs-api-version>1.1.2</taglibs-api-version>
